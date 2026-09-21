@@ -1,0 +1,27 @@
+.env
+.env.*
+!.env.example
+
+# Go
+bin/
+coverage.out
+*.test
+*.exe
+
+# Frontend
+.nuxt/
+.output/
+node_modules/
+dist/
+
+# Runtime data
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+# Editor/OS
+.idea/
+.vscode/*
+!.vscode/settings.json
+.DS_Store
